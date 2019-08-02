@@ -121,7 +121,7 @@ open class YouTubePlayerView: UIView, UIWebViewDelegate {
         super.layoutSubviews()
         
         // Remove web view in case it's within view hierarchy, reset frame, add as subview
-        webView.removeFromSuperview()
+//        webView.removeFromSuperview()
         webView.frame = bounds
         addSubview(webView)
     }
